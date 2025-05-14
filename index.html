@@ -8,7 +8,6 @@
     </head>
     <body>
         <h6>DOM Traversing</h6>     
-
         <table border="1" cellspacing="0">
             <thead>
                 <tr>
@@ -176,14 +175,14 @@
         <script>
             
             //1. Function defination
-            function deleteElement(elem){
-                console.log(elem);
+            function deleteElement(e){// elem is formal argument, I can rename to any name
+                console.log(e);
 
-                console.log(elem.closest('tr'));
+                console.log(e.closest('tr'));
 
               //function chaining
 
-                elem.closest('tr').remove();
+                e.closest('tr').remove();
 
                 console.log("hello from deleteElement function");
             }
