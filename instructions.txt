@@ -1,0 +1,20 @@
+34. JS Events -> Click, Keyup, KeyDown
+
+35. DOM Traversing -> Traversing Up/ Traversing Down
+
+Traversing Up -> Child to Parent -> closest()
+
+child.closest('parent');
+
+
+
+36. IIFE ()();
+    Immediately Invoked Function Expression
+
+   //1. Define
+   //2. Call
+
+
+
+
+37. JS Import / Export
